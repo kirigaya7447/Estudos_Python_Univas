@@ -7,11 +7,11 @@ print("____________________________________________")
 fruits = ["Morango", "Quiabo", "Pimentão", "Xuxu", "Beringela", "Laranja", "Maracujá", "Pimenta"]
 
 print("As duas primeiras frutas:", fruits[:2])
-print("As duas últimas frutas:", fruits[:-2])
+print("As duas últimas frutas:", fruits[-2:])
 
 print("A lista possui", len(fruits), "frutas")
 
-print("A última fruta é:", fruits[- 1])
+print("A última fruta é:", fruits[-1])
 
 fruits.reverse()
 print("Lista inversa:", fruits)
